@@ -1,0 +1,22 @@
+in order to istall some window manager on manjaro follow these steps 
+
+git clone wm
+cd into wm 
+make clean 
+sudo make clean install 
+or 
+makepkg -efi
+
+then 
+
+add a desktop session /usr/share/xsessions/WM.desktop
+add thes lines to it : 
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=name
+Comment= comment
+Exec=/path/to/bin/
+Type=Application
+
+
